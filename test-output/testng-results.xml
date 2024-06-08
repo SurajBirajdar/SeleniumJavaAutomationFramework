@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T14:48:57 IST" name="Suite" finished-at="2023-05-14T14:49:06 IST" duration-ms="8498">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T14:48:57 IST" name="Test" finished-at="2023-05-14T14:49:06 IST" duration-ms="8498">
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.LoginPageTest@4f80542f]" started-at="2023-05-14T14:48:57 IST" name="beforeClass" finished-at="2023-05-14T14:49:05 IST" duration-ms="7881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@4f80542f]" started-at="2023-05-14T14:49:06 IST" name="beforeMethod" finished-at="2023-05-14T14:49:06 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.check()[pri:0, instance:testcases.LoginPageTest@4f80542f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="check()[pri:0, instance:testcases.LoginPageTest@4f80542f]" started-at="2023-05-14T14:49:06 IST" name="check" finished-at="2023-05-14T14:49:06 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@4f80542f]" started-at="2023-05-14T14:49:06 IST" name="beforeMethod" finished-at="2023-05-14T14:49:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginPageTest.check1()[pri:0, instance:testcases.LoginPageTest@4f80542f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="check1()[pri:0, instance:testcases.LoginPageTest@4f80542f]" started-at="2023-05-14T14:49:06 IST" name="check1" finished-at="2023-05-14T14:49:06 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check1 -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
