@@ -6,9 +6,9 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.LazyLoading">
+      <class name="testcases.JenkinsTest">
       <methods>
-          <include name="lazyLoadingHandle" />
+          <include name="jenkinsTest" />
       </methods>
       </class>
     </classes>
