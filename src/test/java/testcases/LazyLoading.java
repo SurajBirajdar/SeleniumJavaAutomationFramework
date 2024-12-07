@@ -15,11 +15,11 @@ public class LazyLoading extends TestBase {
     @Test
     public void lazyLoadingHandle() throws InterruptedException {
         WebElement location = driver.findElement(By.id("location"));
-        waitUntilElementVisible(location, 10);
+        waitUntilElementVisible(location);
         enterValue(location, "Pune");
         Thread.sleep(2000);
         WebElement exactLocation = driver.findElement(By.xpath("//span[@class='_2W-T9' and text()='Pune, Maharashtra, India']"));
-        waitUntilElementVisible(exactLocation, 10);
+        waitUntilElementVisible(exactLocation);
         click(exactLocation);
         Thread.sleep(8000);
 

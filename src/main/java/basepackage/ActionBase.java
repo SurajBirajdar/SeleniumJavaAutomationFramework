@@ -18,6 +18,7 @@ public class ActionBase {
 
     public static WebDriver driver;
     public static  WebDriverWait wait;
+    public static int waitInSec = 10;
 
     public static void initializeDriver() {
         try {
@@ -36,7 +37,7 @@ public class ActionBase {
         driver.get(url);
     }
 
-    public static void waitUntilElementVisible(WebElement element, int waitInSec) {
+    public static void waitUntilElementVisible(WebElement element) {
         wait = new WebDriverWait(driver, Duration.ofSeconds(waitInSec));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
